@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🚀 ALPHA DIVISION
+# ALPHA DIVISION
 ### **Kelas A 25 - Teknik Informatika UNILA**
 
 *Wadah kolaborasi, belajar bareng, dan arsip proyek mahasiswa Kelas A Teknik Informatika 25, Universitas Lampung.*
