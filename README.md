@@ -1,9 +1,9 @@
 <div align="center">
 
 # 🚀 ALPHA DIVISION
-### **Kelas A - Teknik Informatika UNILA**
+### **Kelas A 25 - Teknik Informatika UNILA**
 
-*Wadah kolaborasi, belajar bareng, dan arsip proyek mahasiswa Kelas A Teknik Informatika, Universitas Lampung.*
+*Wadah kolaborasi, belajar bareng, dan arsip proyek mahasiswa Kelas A Teknik Informatika 25, Universitas Lampung.*
 
 [![UNILA](https://img.shields.io/badge/UNILA-Teknik%20Informatika-00529B?style=flat-square&logo=google-classroom&logoColor=white)](https://if.eng.unila.ac.id/)
 [![Kelas](https://img.shields.io/badge/Class-A%20Division-2ea44f?style=flat-square&logo=github)](https://github.com/)
