@@ -1,0 +1,43 @@
+# DevCore Agent Codebase Indexing Ignore File
+# Patterns matching files or directories here will be excluded from AST semantic indexing
+
+# Dependencies & Third-party packages
+node_modules/
+vendor/
+.venv/
+venv/
+site-packages/
+
+# Binary & Compiled files
+*.wasm
+*.exe
+*.dll
+*.so
+*.dylib
+*.bin
+*.iso
+
+# Build outputs & caches
+dist/
+build/
+.next/
+.nuxt/
+.turbo/
+.cache/
+coverage/
+
+# Large media & assets
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.mp4
+*.zip
+*.tar.gz
+*.tgz
+
+# Vector store & Agent internals
+.devcore/
+.git/
+

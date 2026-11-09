@@ -1,0 +1,75 @@
+{
+  "$schema": "https://raw.githubusercontent.com/devcore-agent/schema/main/devcore.config.schema.json",
+  "version": "1.4.0",
+  "activeProvider": "gemini",
+  "providers": {
+    "gemini": {
+      "model": "gemini-1.5-pro-latest",
+      "temperature": 0.1,
+      "maxOutputTokens": 8192
+    },
+    "openai": {
+      "model": "gpt-4o",
+      "temperature": 0.0,
+      "maxOutputTokens": 4096
+    },
+    "anthropic": {
+      "model": "claude-3-5-sonnet-20241022",
+      "temperature": 0.1,
+      "maxOutputTokens": 8192
+    },
+    "ollama": {
+      "model": "qwen2.5-coder:32b",
+      "baseUrl": "http://127.0.0.1:11434",
+      "contextWindow": 32768
+    }
+  },
+  "runtime": {
+    "executionMode": "sandbox",
+    "timeoutMs": 60000,
+    "maxSteps": 25,
+    "interactiveApproval": true
+  },
+  "indexing": {
+    "vectorStore": "chroma",
+    "embeddingModel": "text-embedding-004",
+    "chunkSize": 1000,
+    "chunkOverlap": 150,
+    "maxPruneDepth": 5,
+    "trackedExtensions": [
+      ".ts",
+      ".tsx",
+      ".js",
+      ".jsx",
+      ".py",
+      ".go",
+      ".rs",
+      ".java",
+      ".json",
+      ".md",
+      ".yaml",
+      ".yml"
+    ]
+  },
+  "guardrails": {
+    "scrubCredentials": true,
+    "restrictedPaths": [
+      "~/.ssh",
+      "~/.gnupg",
+      "~/.aws",
+      "/etc",
+      "C:\\Windows\\System32"
+    ],
+    "commandBlocklist": [
+      "rm -rf /",
+      "mkfs",
+      "dd",
+      ":(){ :|:& };:",
+      "chmod -R 777 /",
+      "shutdown",
+      "reboot"
+    ]
+  },
+  "plugins": []
+}
+
