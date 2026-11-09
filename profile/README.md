@@ -13,16 +13,16 @@
 ---
 
 ### Halo!
-Selamat datang di organisasi GitHub resmi **Alpha Division** (Kelas A Teknik Informatika, Universitas Lampung). 
+Selamat datang di organisasi GitHub **Alpha Division** (Kelas A Teknik Informatika 25, Universitas Lampung). 
 
 Organisasi ini dibuat sebagai wadah terpusat untuk mempermudah teman-teman sekelas dalam:
 - 📁 **Menyimpan tugas besar & tugas kelompok** agar tidak tercecer di chat.
-- 💡 **Kolaborasi proyek mandiri** di luar jam kuliah (web, mobile, bot, hackathon, dll).
+- 💡 **Kolaborasi proyek mandiri** di luar jam kuliah.
 - 🤝 **Sharing catatan, tips, dan resource ngoding.**
 
 ---
 
-### 💻 Stack yang Sering Kita Pakai
+### 💻 Stack yang Kita Pakai
 Beberapa teknologi dan tools yang biasa dipelajari di kelas atau dipakai buat ngerjain tugas:
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -42,5 +42,5 @@ Beberapa teknologi dan tools yang biasa dipelajari di kelas atau dipakai buat ng
 ---
 
 <div align="center">
-  <sub>Dikelola bareng oleh Mahasiswa Kelas A Teknik Informatika - Universitas Lampung</sub>
+  <sub>Dikelola bareng oleh Mahasiswa Kelas A Teknik Informatika 25 - Universitas Lampung</sub>
 </div>
